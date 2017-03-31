@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		751B99641E8633B0003BD431 /* birdImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751B99631E8633B0003BD431 /* birdImages.xcassets */; };
+		751B99661E8639A7003BD431 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B99651E8639A7003BD431 /* DetailController.swift */; };
+		751B996C1E864805003BD431 /* BirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751B996B1E864805003BD431 /* BirdView.swift */; };
+		751B99A81E88030A003BD431 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751B99A71E88030A003BD431 /* Storyboard.storyboard */; };
+		751B99AB1E8803B5003BD431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751B99A91E8803B5003BD431 /* Main.storyboard */; };
+		75364B141E84EA65005A0202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75364B131E84EA65005A0202 /* AppDelegate.swift */; };
+		75364B161E84EA65005A0202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75364B151E84EA65005A0202 /* ViewController.swift */; };
+		75364B1B1E84EA65005A0202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75364B1A1E84EA65005A0202 /* Assets.xcassets */; };
+		75364B1E1E84EA65005A0202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75364B1C1E84EA65005A0202 /* LaunchScreen.storyboard */; };
+		75364B291E84EA65005A0202 /* Birds_v1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75364B281E84EA65005A0202 /* Birds_v1_0Tests.swift */; };
+		75364B341E84EA65005A0202 /* Birds_v1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75364B331E84EA65005A0202 /* Birds_v1_0UITests.swift */; };
+		75692DBA1E85D0EA00C84663 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75692DB91E85D0EA00C84663 /* Bird.swift */; };
+		75692DBC1E85D0FA00C84663 /* BirdBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75692DBB1E85D0FA00C84663 /* BirdBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75364B251E84EA65005A0202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75364B081E84EA65005A0202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75364B0F1E84EA65005A0202;
+			remoteInfo = "Birds v1.0";
+		};
+		75364B301E84EA65005A0202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75364B081E84EA65005A0202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75364B0F1E84EA65005A0202;
+			remoteInfo = "Birds v1.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		751B99631E8633B0003BD431 /* birdImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = birdImages.xcassets; path = ../../../birdImages.xcassets; sourceTree = "<group>"; };
+		751B99651E8639A7003BD431 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		751B996B1E864805003BD431 /* BirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdView.swift; sourceTree = "<group>"; };
+		751B99A71E88030A003BD431 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		751B99AA1E8803B5003BD431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75364B101E84EA65005A0202 /* Birds v1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birds v1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75364B131E84EA65005A0202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75364B151E84EA65005A0202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75364B1A1E84EA65005A0202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75364B1D1E84EA65005A0202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75364B1F1E84EA65005A0202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75364B241E84EA65005A0202 /* Birds v1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birds v1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75364B281E84EA65005A0202 /* Birds_v1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birds_v1_0Tests.swift; sourceTree = "<group>"; };
+		75364B2A1E84EA65005A0202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75364B2F1E84EA65005A0202 /* Birds v1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birds v1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75364B331E84EA65005A0202 /* Birds_v1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birds_v1_0UITests.swift; sourceTree = "<group>"; };
+		75364B351E84EA65005A0202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75692DB91E85D0EA00C84663 /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		75692DBB1E85D0FA00C84663 /* BirdBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdBrain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75364B0D1E84EA65005A0202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75364B211E84EA65005A0202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75364B2C1E84EA65005A0202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75364B071E84EA65005A0202 = {
+			isa = PBXGroup;
+			children = (
+				75364B121E84EA65005A0202 /* Birds v1.0 */,
+				75364B271E84EA65005A0202 /* Birds v1.0Tests */,
+				75364B321E84EA65005A0202 /* Birds v1.0UITests */,
+				75364B111E84EA65005A0202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75364B111E84EA65005A0202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75364B101E84EA65005A0202 /* Birds v1.0.app */,
+				75364B241E84EA65005A0202 /* Birds v1.0Tests.xctest */,
+				75364B2F1E84EA65005A0202 /* Birds v1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75364B121E84EA65005A0202 /* Birds v1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				751B99A91E8803B5003BD431 /* Main.storyboard */,
+				75364B131E84EA65005A0202 /* AppDelegate.swift */,
+				75364B151E84EA65005A0202 /* ViewController.swift */,
+				751B996B1E864805003BD431 /* BirdView.swift */,
+				751B99651E8639A7003BD431 /* DetailController.swift */,
+				75364B1A1E84EA65005A0202 /* Assets.xcassets */,
+				751B99631E8633B0003BD431 /* birdImages.xcassets */,
+				75364B1C1E84EA65005A0202 /* LaunchScreen.storyboard */,
+				75364B1F1E84EA65005A0202 /* Info.plist */,
+				75692DB91E85D0EA00C84663 /* Bird.swift */,
+				75692DBB1E85D0FA00C84663 /* BirdBrain.swift */,
+				751B99A71E88030A003BD431 /* Storyboard.storyboard */,
+			);
+			path = "Birds v1.0";
+			sourceTree = "<group>";
+		};
+		75364B271E84EA65005A0202 /* Birds v1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				75364B281E84EA65005A0202 /* Birds_v1_0Tests.swift */,
+				75364B2A1E84EA65005A0202 /* Info.plist */,
+			);
+			path = "Birds v1.0Tests";
+			sourceTree = "<group>";
+		};
+		75364B321E84EA65005A0202 /* Birds v1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				75364B331E84EA65005A0202 /* Birds_v1_0UITests.swift */,
+				75364B351E84EA65005A0202 /* Info.plist */,
+			);
+			path = "Birds v1.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75364B0F1E84EA65005A0202 /* Birds v1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75364B381E84EA65005A0202 /* Build configuration list for PBXNativeTarget "Birds v1.0" */;
+			buildPhases = (
+				75364B0C1E84EA65005A0202 /* Sources */,
+				75364B0D1E84EA65005A0202 /* Frameworks */,
+				75364B0E1E84EA65005A0202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birds v1.0";
+			productName = "Birds v1.0";
+			productReference = 75364B101E84EA65005A0202 /* Birds v1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75364B231E84EA65005A0202 /* Birds v1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75364B3B1E84EA65005A0202 /* Build configuration list for PBXNativeTarget "Birds v1.0Tests" */;
+			buildPhases = (
+				75364B201E84EA65005A0202 /* Sources */,
+				75364B211E84EA65005A0202 /* Frameworks */,
+				75364B221E84EA65005A0202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75364B261E84EA65005A0202 /* PBXTargetDependency */,
+			);
+			name = "Birds v1.0Tests";
+			productName = "Birds v1.0Tests";
+			productReference = 75364B241E84EA65005A0202 /* Birds v1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75364B2E1E84EA65005A0202 /* Birds v1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75364B3E1E84EA65005A0202 /* Build configuration list for PBXNativeTarget "Birds v1.0UITests" */;
+			buildPhases = (
+				75364B2B1E84EA65005A0202 /* Sources */,
+				75364B2C1E84EA65005A0202 /* Frameworks */,
+				75364B2D1E84EA65005A0202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75364B311E84EA65005A0202 /* PBXTargetDependency */,
+			);
+			name = "Birds v1.0UITests";
+			productName = "Birds v1.0UITests";
+			productReference = 75364B2F1E84EA65005A0202 /* Birds v1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75364B081E84EA65005A0202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Qiuye Jin";
+				TargetAttributes = {
+					75364B0F1E84EA65005A0202 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DDH243BF;
+						ProvisioningStyle = Automatic;
+					};
+					75364B231E84EA65005A0202 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DDH243BF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75364B0F1E84EA65005A0202;
+					};
+					75364B2E1E84EA65005A0202 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47DDH243BF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75364B0F1E84EA65005A0202;
+					};
+				};
+			};
+			buildConfigurationList = 75364B0B1E84EA65005A0202 /* Build configuration list for PBXProject "Birds v1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75364B071E84EA65005A0202;
+			productRefGroup = 75364B111E84EA65005A0202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75364B0F1E84EA65005A0202 /* Birds v1.0 */,
+				75364B231E84EA65005A0202 /* Birds v1.0Tests */,
+				75364B2E1E84EA65005A0202 /* Birds v1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75364B0E1E84EA65005A0202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75364B1E1E84EA65005A0202 /* LaunchScreen.storyboard in Resources */,
+				751B99AB1E8803B5003BD431 /* Main.storyboard in Resources */,
+				751B99A81E88030A003BD431 /* Storyboard.storyboard in Resources */,
+				75364B1B1E84EA65005A0202 /* Assets.xcassets in Resources */,
+				751B99641E8633B0003BD431 /* birdImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75364B221E84EA65005A0202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75364B2D1E84EA65005A0202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75364B0C1E84EA65005A0202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75364B161E84EA65005A0202 /* ViewController.swift in Sources */,
+				75692DBA1E85D0EA00C84663 /* Bird.swift in Sources */,
+				75364B141E84EA65005A0202 /* AppDelegate.swift in Sources */,
+				751B996C1E864805003BD431 /* BirdView.swift in Sources */,
+				751B99661E8639A7003BD431 /* DetailController.swift in Sources */,
+				75692DBC1E85D0FA00C84663 /* BirdBrain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75364B201E84EA65005A0202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75364B291E84EA65005A0202 /* Birds_v1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75364B2B1E84EA65005A0202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75364B341E84EA65005A0202 /* Birds_v1_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75364B261E84EA65005A0202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75364B0F1E84EA65005A0202 /* Birds v1.0 */;
+			targetProxy = 75364B251E84EA65005A0202 /* PBXContainerItemProxy */;
+		};
+		75364B311E84EA65005A0202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75364B0F1E84EA65005A0202 /* Birds v1.0 */;
+			targetProxy = 75364B301E84EA65005A0202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		751B99A91E8803B5003BD431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751B99AA1E8803B5003BD431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75364B1C1E84EA65005A0202 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75364B1D1E84EA65005A0202 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75364B361E84EA65005A0202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75364B371E84EA65005A0202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75364B391E84EA65005A0202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47DDH243BF;
+				INFOPLIST_FILE = "Birds v1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jason.Birds-v1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		75364B3A1E84EA65005A0202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47DDH243BF;
+				INFOPLIST_FILE = "Birds v1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jason.Birds-v1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		75364B3C1E84EA65005A0202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 47DDH243BF;
+				INFOPLIST_FILE = "Birds v1.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jason.Birds-v1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birds v1.0.app/Birds v1.0";
+			};
+			name = Debug;
+		};
+		75364B3D1E84EA65005A0202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 47DDH243BF;
+				INFOPLIST_FILE = "Birds v1.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jason.Birds-v1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birds v1.0.app/Birds v1.0";
+			};
+			name = Release;
+		};
+		75364B3F1E84EA65005A0202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 47DDH243BF;
+				INFOPLIST_FILE = "Birds v1.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jason.Birds-v1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Birds v1.0";
+			};
+			name = Debug;
+		};
+		75364B401E84EA65005A0202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 47DDH243BF;
+				INFOPLIST_FILE = "Birds v1.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jason.Birds-v1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Birds v1.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75364B0B1E84EA65005A0202 /* Build configuration list for PBXProject "Birds v1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75364B361E84EA65005A0202 /* Debug */,
+				75364B371E84EA65005A0202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75364B381E84EA65005A0202 /* Build configuration list for PBXNativeTarget "Birds v1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75364B391E84EA65005A0202 /* Debug */,
+				75364B3A1E84EA65005A0202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75364B3B1E84EA65005A0202 /* Build configuration list for PBXNativeTarget "Birds v1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75364B3C1E84EA65005A0202 /* Debug */,
+				75364B3D1E84EA65005A0202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75364B3E1E84EA65005A0202 /* Build configuration list for PBXNativeTarget "Birds v1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75364B3F1E84EA65005A0202 /* Debug */,
+				75364B401E84EA65005A0202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75364B081E84EA65005A0202 /* Project object */;
+}
