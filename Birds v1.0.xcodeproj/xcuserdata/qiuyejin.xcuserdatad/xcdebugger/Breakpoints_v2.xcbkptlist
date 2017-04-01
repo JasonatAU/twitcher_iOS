@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Birds v1.0/Bird.swift"
-            timestampString = "512204685.468322"
+            timestampString = "512644671.592101"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "init()"
             landmarkType = "7">
             <Locations>
@@ -41,12 +41,12 @@
                   symbolName = "Birds_v1_0.Bird.init () -&gt; Birds_v1_0.Bird"
                   moduleName = "Birds v1.0"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/qiuyejin/Desktop/IOS%20APP/Birds%20v1.0/Birds%20v1.0/Bird.swift"
-                  timestampString = "512393057.604335"
+                  urlString = "file:///Users/qiuyejin/Desktop/5120Project/twitcher_iOS/Birds%20v1.0/Bird.swift"
+                  timestampString = "512700693.561141"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
                   offsetFromSymbolStart = "24">
                </Location>
                <Location
@@ -56,8 +56,8 @@
                   symbolName = "Birds_v1_0.Bird.__allocating_init () -&gt; Birds_v1_0.Bird"
                   moduleName = "Birds v1.0"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/qiuyejin/Desktop/IOS%20APP/Birds%20v1.0/Birds%20v1.0/Bird.swift"
-                  timestampString = "512393057.606872"
+                  urlString = "file:///Users/qiuyejin/Desktop/5120Project/twitcher_iOS/Birds%20v1.0/Bird.swift"
+                  timestampString = "512700693.563533"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"

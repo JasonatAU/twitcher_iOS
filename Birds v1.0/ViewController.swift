@@ -62,24 +62,42 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     }
     
     func filterTableView(ind:Int,text:String){
-        switch ind {
-        case selectedScope.commonName.rawValue:
-            birdList = birdList.filter({ (aBird) -> Bool in
-                return aBird.commonName.lowercased().contains(text.lowercased())
-            })
-            self.tableView.reloadData()
-            print("after search \(birdList.count)")
-            //birdList = BirdBrain.generateBirdList()
-            //print(birdList.count)
-        case selectedScope.scientificName.rawValue:
-            birdList = birdList.filter({ (aBird) -> Bool in
-                return aBird.scientificName.lowercased().contains(text.lowercased())
-            })
-            self.tableView.reloadData()
-            //birdList = BirdBrain.generateBirdList()
-        default:
-            print("no type")
-        }
+        
+        let birdByCommonName = birdList.filter({ (aBird) -> Bool in
+            
+            return aBird.commonName.lowercased().contains(text.lowercased())
+            
+        })
+        
+        let birdByScientificName = birdList.filter({ (aBird) -> Bool in
+            
+            return aBird.scientificName.lowercased().contains(text.lowercased())
+            
+        })
+        
+        birdList = birdByCommonName + birdByScientificName
+        //birdList = Array(Set<Bird>(birdList))
+        self.tableView.reloadData()
+        
+        
+//        switch ind {
+//        case selectedScope.commonName.rawValue:
+//            birdList = birdList.filter({ (aBird) -> Bool in
+//                return aBird.commonName.lowercased().contains(text.lowercased())
+//            })
+//            self.tableView.reloadData()
+//            print("after search \(birdList.count)")
+//            //birdList = BirdBrain.generateBirdList()
+//            //print(birdList.count)
+//        case selectedScope.scientificName.rawValue:
+//            birdList = birdList.filter({ (aBird) -> Bool in
+//                return aBird.scientificName.lowercased().contains(text.lowercased())
+//            })
+//            self.tableView.reloadData()
+//            //birdList = BirdBrain.generateBirdList()
+//        default:
+//            print("no type")
+//        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

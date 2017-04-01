@@ -20,6 +20,9 @@
 		75364B341E84EA65005A0202 /* Birds_v1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75364B331E84EA65005A0202 /* Birds_v1_0UITests.swift */; };
 		75692DBA1E85D0EA00C84663 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75692DB91E85D0EA00C84663 /* Bird.swift */; };
 		75692DBC1E85D0FA00C84663 /* BirdBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75692DBB1E85D0FA00C84663 /* BirdBrain.swift */; };
+		75DD56131E8E7E8700C571EF /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD56121E8E7E8700C571EF /* FilterView.swift */; };
+		75DD56151E8F1DF800C571EF /* SizePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD56141E8F1DF800C571EF /* SizePickerView.swift */; };
+		75DD56171E8F511D00C571EF /* FilterResultTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD56161E8F511D00C571EF /* FilterResultTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		75364B351E84EA65005A0202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75692DB91E85D0EA00C84663 /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 		75692DBB1E85D0FA00C84663 /* BirdBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdBrain.swift; sourceTree = "<group>"; };
+		75DD56121E8E7E8700C571EF /* FilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		75DD56141E8F1DF800C571EF /* SizePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizePickerView.swift; sourceTree = "<group>"; };
+		75DD56161E8F511D00C571EF /* FilterResultTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterResultTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,9 @@
 				75364B131E84EA65005A0202 /* AppDelegate.swift */,
 				75364B151E84EA65005A0202 /* ViewController.swift */,
 				751B996B1E864805003BD431 /* BirdView.swift */,
+				75DD56121E8E7E8700C571EF /* FilterView.swift */,
+				75DD56141E8F1DF800C571EF /* SizePickerView.swift */,
+				75DD56161E8F511D00C571EF /* FilterResultTableView.swift */,
 				751B99651E8639A7003BD431 /* DetailController.swift */,
 				75364B1A1E84EA65005A0202 /* Assets.xcassets */,
 				751B99631E8633B0003BD431 /* birdImages.xcassets */,
@@ -282,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DD56131E8E7E8700C571EF /* FilterView.swift in Sources */,
 				75364B161E84EA65005A0202 /* ViewController.swift in Sources */,
 				75692DBA1E85D0EA00C84663 /* Bird.swift in Sources */,
+				75DD56151E8F1DF800C571EF /* SizePickerView.swift in Sources */,
 				75364B141E84EA65005A0202 /* AppDelegate.swift in Sources */,
+				75DD56171E8F511D00C571EF /* FilterResultTableView.swift in Sources */,
 				751B996C1E864805003BD431 /* BirdView.swift in Sources */,
 				751B99661E8639A7003BD431 /* DetailController.swift in Sources */,
 				75692DBC1E85D0FA00C84663 /* BirdBrain.swift in Sources */,

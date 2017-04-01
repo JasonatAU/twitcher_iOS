@@ -13,14 +13,16 @@ class Bird{
     var commonName:String
     var scientificName:String
     var description:String
+    var voiceLink:String
     var colourList:[String]
     var pictureList:[String]
     
-    init(newID: Int, newCommonName:String, newScientificName:String, newDescription:String, newColourList:[String], newPictureList:[String]) {
+    init(newID: Int, newCommonName:String, newScientificName:String, newDescription:String, newVoiceLink:String,newColourList:[String], newPictureList:[String]) {
         ID = newID
         commonName = newCommonName
         scientificName = newScientificName
         description = newDescription
+        voiceLink = newVoiceLink
         colourList = newColourList
         pictureList = newPictureList
     }
@@ -30,6 +32,7 @@ class Bird{
         commonName = ""
         scientificName = ""
         description = ""
+        voiceLink = ""
         colourList = [""]
         pictureList = [""]
     }
