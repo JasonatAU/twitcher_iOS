@@ -23,6 +23,7 @@
 		75DD56131E8E7E8700C571EF /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD56121E8E7E8700C571EF /* FilterView.swift */; };
 		75DD56151E8F1DF800C571EF /* SizePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD56141E8F1DF800C571EF /* SizePickerView.swift */; };
 		75DD56171E8F511D00C571EF /* FilterResultTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD56161E8F511D00C571EF /* FilterResultTableView.swift */; };
+		75DD56191E909F7800C571EF /* PicturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD56181E909F7800C571EF /* PicturesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		75DD56121E8E7E8700C571EF /* FilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		75DD56141E8F1DF800C571EF /* SizePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizePickerView.swift; sourceTree = "<group>"; };
 		75DD56161E8F511D00C571EF /* FilterResultTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterResultTableView.swift; sourceTree = "<group>"; };
+		75DD56181E909F7800C571EF /* PicturesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				75DD56121E8E7E8700C571EF /* FilterView.swift */,
 				75DD56141E8F1DF800C571EF /* SizePickerView.swift */,
 				75DD56161E8F511D00C571EF /* FilterResultTableView.swift */,
+				75DD56181E909F7800C571EF /* PicturesView.swift */,
 				751B99651E8639A7003BD431 /* DetailController.swift */,
 				75364B1A1E84EA65005A0202 /* Assets.xcassets */,
 				751B99631E8633B0003BD431 /* birdImages.xcassets */,
@@ -300,6 +303,7 @@
 				751B996C1E864805003BD431 /* BirdView.swift in Sources */,
 				751B99661E8639A7003BD431 /* DetailController.swift in Sources */,
 				75692DBC1E85D0FA00C84663 /* BirdBrain.swift in Sources */,
+				75DD56191E909F7800C571EF /* PicturesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
