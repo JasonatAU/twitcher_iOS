@@ -42,11 +42,11 @@
                   moduleName = "Birds v1.0"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/qiuyejin/Desktop/5120Project/twitcher_iOS/Birds%20v1.0/Bird.swift"
-                  timestampString = "512700693.561141"
+                  timestampString = "512827030.847744"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
                   offsetFromSymbolStart = "24">
                </Location>
                <Location
@@ -57,7 +57,7 @@
                   moduleName = "Birds v1.0"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/qiuyejin/Desktop/5120Project/twitcher_iOS/Birds%20v1.0/Bird.swift"
-                  timestampString = "512700693.563533"
+                  timestampString = "512827030.850115"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"

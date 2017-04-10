@@ -46,6 +46,7 @@ class FilterView:UIViewController {
             }
             
         }
+        changeLabel()
         print(colours)
     }
     
@@ -66,6 +67,7 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
     }
     
@@ -88,6 +90,7 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
     }
     
@@ -108,6 +111,7 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
     }
     
@@ -128,6 +132,7 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
     }
     
@@ -148,6 +153,7 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
     }
     
@@ -168,6 +174,7 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
     }
     
@@ -188,6 +195,7 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
     }
     
@@ -208,6 +216,7 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
     }
     
@@ -228,7 +237,20 @@ class FilterView:UIViewController {
                 colours.remove(at: j)
             }
         }
+        changeLabel()
         print(colours)
+    }
+    
+    func changeLabel(){
+        var showLabel = "The colour of the bird is "
+        if colours.isEmpty{
+            colourLabel.text = "Please choose the colour of the bird"
+        }else{
+            for i in 0..<colours.count{
+                showLabel += (colours[i] + " ")
+            }
+            colourLabel.text = showLabel
+        }
     }
     
     
